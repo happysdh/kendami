@@ -1,0 +1,2 @@
+<?php if (!defined('THINK_PATH')) exit();?><h1>Hello,<?php echo ($name); ?></h1>
+<?php if(is_array($select)): $i = 0; $__LIST__ = $select;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$user): $mod = ($i % 2 );++$i;?>ID:<?php echo ($user["user"]); ?><br/><?php endforeach; endif; else: echo "" ;endif; ?>

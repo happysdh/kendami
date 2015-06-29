@@ -11,5 +11,5 @@ use Think\Model;
  * 文件操作
  */
 class UserModel extends Model {
-//    protected $tableName = 'user';
+
 }
